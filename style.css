@@ -1,0 +1,19 @@
+#bg-img{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+
+.me-5 {
+    margin-right: 30rem !important;
+}
+
+.ml-5{
+    margin-left: 26rem !important; 
+}
