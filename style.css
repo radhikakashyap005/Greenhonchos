@@ -115,3 +115,33 @@
 .tns-outer{
     right: 34px; 
 }
+
+.gh-outer {
+    padding-left: var(--gap);
+    padding-right: var(--gap);
+}
+
+.featured-wrapper {
+    margin-top: 3rem;
+    padding-top: 6vmin;
+}
+
+/* carousel cards */
+
+.scrolling-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0%;
+}
+
+.post-title {
+    text-align: start;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -.005em;
+    line-height: 1.25;
+    margin-bottom: 0;
+    word-break: break-word;
+}
