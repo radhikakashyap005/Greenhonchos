@@ -1,19 +1,58 @@
-#bg-img{
+@import url(https://help.kartmax.in/assets/fonts/mulish-v10-latin-800.woff2);
+
+@import url(chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Book.woff2);
+
+#bg-img {
+    background-color: black;
     width: 100vw;
     height: 100vh;
     object-fit: cover;
     position: absolute;
     top: 0;
     left: 0;
+   filter:grayscale(0.2);
     z-index: -1;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.cover-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 720px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+}
+
+.cover-description {
+    font-size: 2.6rem;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    line-height: 11;
+    word-break: break-word;
+}
+
+.cover-description {
+    color: #fff;
+}
+
+#icon {
+    color: white;
 
 }
 
+.bi {
+    font-size: 20px;
+  }
 
 .me-5 {
-    margin-right: 30rem !important;
+    margin-right: 26rem !important;
 }
 
-.ml-5{
-    margin-left: 26rem !important; 
+.ml-5 {
+    margin-left: 26rem !important;
 }
