@@ -191,23 +191,63 @@
     }
 }
 
-/*  */
+.gh-foot {
+    color: #333;
+    padding-bottom: 8rem;
+    padding-top: 8rem;
+    white-space: nowrap;
+}
 
-/* Custom CSS */
-/* Custom CSS for md and sm screens */
-@media (max-width: 991.98px) {
-    .navbar-toggler {
-        order: 2;
-        /* Moves the toggler to the right */
-    }
+.gh-foot-inner {
+    color: rgb(155, 155, 155);
+    display: grid;
+    font-size: 15px;
+    gap: 40px;
+    grid-template-columns: 7fr auto 1fr;
+}
 
-    .navbar-brand {
-        margin-right: auto;
-        /* Pushes the logo to the left */
-    }
+.gh-inner {
+    margin: 0 auto;
+    max-width: 1200px;
+}
 
-    .navbar-collapse {
-        justify-content: flex-end;
-        /* Aligns items to the right */
+a {
+    color: rgb(155, 155, 155);
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .gh-foot-inner {
+        grid-template-columns: 1fr;
+        text-align: center;
     }
 }
+
+    @media (max-width: 768px) {
+
+        #article-image {
+            width: 100%;
+        }
+    }
+
+    /*  */
+
+    /* Custom CSS */
+    /* Custom CSS for md and sm screens */
+    @media (max-width: 991.98px) {
+        .navbar-toggler {
+            order: 2;
+            /* Moves the toggler to the right */
+        }
+
+        .navbar-brand {
+            margin-right: auto;
+            /* Pushes the logo to the left */
+        }
+
+        .navbar-collapse {
+            justify-content: flex-end;
+            /* Aligns items to the right */
+        }
+    }
