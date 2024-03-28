@@ -191,6 +191,14 @@
     }
 }
 
+@media (min-width: 768px) {
+    .col-md-2 {
+        flex: 0 0 auto;
+        width: 16.66666667%;
+        padding-top: 18px;
+    }
+}
+
 .gh-foot {
     color: #333;
     padding-bottom: 8rem;
@@ -224,30 +232,30 @@ a {
     }
 }
 
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
 
-        #article-image {
-            width: 100%;
-        }
+    #article-image {
+        width: 100%;
+    }
+}
+
+/*  */
+
+/* Custom CSS */
+/* Custom CSS for md and sm screens */
+@media (max-width: 991.98px) {
+    .navbar-toggler {
+        order: 2;
+        /* Moves the toggler to the right */
     }
 
-    /*  */
-
-    /* Custom CSS */
-    /* Custom CSS for md and sm screens */
-    @media (max-width: 991.98px) {
-        .navbar-toggler {
-            order: 2;
-            /* Moves the toggler to the right */
-        }
-
-        .navbar-brand {
-            margin-right: auto;
-            /* Pushes the logo to the left */
-        }
-
-        .navbar-collapse {
-            justify-content: flex-end;
-            /* Aligns items to the right */
-        }
+    .navbar-brand {
+        margin-right: auto;
+        /* Pushes the logo to the left */
     }
+
+    .navbar-collapse {
+        justify-content: flex-end;
+        /* Aligns items to the right */
+    }
+}
