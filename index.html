@@ -57,10 +57,53 @@
         </div>
     </nav> -->
 
+    <nav class="navbar fixed-top d-lg-none d-md d-sm">
+        <div class="container-fluid">
+            <a class="navbar" href="#">
+                <a class="navbar-brand" href="https://help.kartmax.in">
+                    <img src="https://help.kartmax.in/content/images/2023/06/ms-icon-310x310-1.png" alt="Bootstrap"
+                        width="50">
+                </a>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel" style="width: 100%;">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3">
+                        <li class="nav-item me-2">
+                            <a class="nav-link active fw-700" aria-current="page"
+                                href="https://help.kartmax.in/">Home</a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="nav-link active fw-700" aria-current="page"
+                                href="https://www.greenhonchos.com/ghcommercecloud">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-700" aria-current="page"
+                                href="https://kartmax.hyperping.app">Status&nbsppage</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <!-- 11111111 -->
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark mt-3">
+    <nav class="navbar navbar-expand-lg navbar-dark mt-3 d-lg-block d-md-none d-sm-none d-xs-none">
         <div class="container-fluid">
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -87,7 +130,8 @@
                         href="https://help.kartmax.in">
                         <img src="https://help.kartmax.in/content/images/2023/06/ms-icon-310x310-1.png" alt="Bootstrap"
                             width="50">
-                    </a></a>
+                    </a>
+                </a>
                 <form class="d-flex" role="search">
                     <!-- Button trigger modal -->
                     <button type="button" id="icon" class="btn btn ml-5 me-2" data-bs-toggle="modal"

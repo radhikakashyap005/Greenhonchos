@@ -272,3 +272,18 @@ justify-content: center;
 /* .modal-footer{
     justify-content: start;
 } */
+
+.navbar-toggler{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+/* .offcanvas{
+    background-color: black;
+    color: white;
+} */
+
+#offcanvas-li{
+    color: white;
+}
