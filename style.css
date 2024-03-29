@@ -279,10 +279,10 @@ justify-content: center;
     color: white;
 }
 
-/* .offcanvas{
-    background-color: black;
+.offcanvas{
+    background-color: rgb(180, 180, 180);
     color: white;
-} */
+}
 
 #offcanvas-li{
     color: white;
