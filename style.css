@@ -269,6 +269,6 @@ align-items: center;
 justify-content: center;
 }
 
-.modal-footer{
-    justify-content: center;
-}
+/* .modal-footer{
+    justify-content: start;
+} */
